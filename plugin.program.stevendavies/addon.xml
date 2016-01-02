@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.stevendavies" name="Steven Davies" version="1.0.2" provider-name="Chameleon-Custom-Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Steven-Davies-Custom-Builds</summary>
+    <description lang="en">Easy Way To Install Your Custom Steven Davies Build!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
