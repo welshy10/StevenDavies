@@ -14,7 +14,7 @@ ADDON_ID = 'plugin.program.stevendavies'
 BASEURL = 'http://chameleon.x10host.com'
 ADDON = xbmcaddon.Addon(id=ADDON_ID)
 HOME = ADDON.getAddonInfo('path')
-VERSION = "1.0.2"
+VERSION = "1.0.3"
 PATH = "Steven Davies"
 FANART = xbmc.translatePath(os.path.join('special://home/addons/' + ADDON_ID , 'fanart.jpg'))
 ICON = xbmc.translatePath(os.path.join('special://home/addons/' + ADDON_ID, 'icon.png'))
@@ -24,12 +24,12 @@ dialog     =  xbmcgui.Dialog()
 dp         =  xbmcgui.DialogProgress()
 #-------------------------------------------------------
 
-Drop_Box_URL = 'https://www.dropbox.com/s/kod1jrohw04ge1i/welshy1.zip?dl=1' # The 0 at the end or drop box url needs to be a 1 to work
-Archive_ORG_URL = 'https://archive.org/download/welshy1_201601/welshy1.zip' # Make sure this finishes with .zip - Both urls inside ''
+Build_URL = 'http://welshy10.co.uk/Builds/welshy1.zip' # The 0 at the end or drop box url needs to be a 1 to work
+#Archive_ORG_URL = 'https://archive.org/download/welshy1_201601/welshy1.zip' # Make sure this finishes with .zip - Both urls inside ''
 
 def INDEX():
-	addDir('Steven Davies Custom - Drop Box',Drop_Box_URL,10,ART+'build.png',FANART,'')
-	addDir('Steven Davies Custom - Archive.org',Archive_ORG_URL,10,ART+'build.png',FANART,'')
+	addDir('Steven Davies Custom',Build_URL,10,ART+'build.png',FANART,'')
+	#addDir('Steven Davies Custom - Archive.org',Archive_ORG_URL,10,ART+'build.png',FANART,'')
 	AUTO_VIEW('500')
 	
 #-------------------------------------------------------
