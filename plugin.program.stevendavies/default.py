@@ -14,7 +14,7 @@ ADDON_ID = 'plugin.program.stevendavies'
 BASEURL = 'http://chameleon.x10host.com'
 ADDON = xbmcaddon.Addon(id=ADDON_ID)
 HOME = ADDON.getAddonInfo('path')
-VERSION = "1.0.3"
+VERSION = "1.0.4" # this needs to increment each time you update so will go to 1.0.4 now then change to match in addon.xml
 PATH = "Steven Davies"
 FANART = xbmc.translatePath(os.path.join('special://home/addons/' + ADDON_ID , 'fanart.jpg'))
 ICON = xbmc.translatePath(os.path.join('special://home/addons/' + ADDON_ID, 'icon.png'))
