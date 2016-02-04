@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.stevendavies" name="Steven Davies" version="1.0.7" provider-name="Chameleon-Custom-Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Steven-Davies-Custom-Builds</summary>
+    <description lang="en">Easy Way To Install Your Custom Steven Davies Build!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+    <addon id="repository.StevenDavies" name="Steven Davies Repo" version="1.0.1" provider-name="StevenDavies (Chameleon)">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Steven Davies Repo">
+            <info compressed="false">https://raw.github.com/welshy10/StevenDavies/master/_repo/addons.xml</info>
+            <checksum>https://raw.github.com/welshy10/StevenDavies/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/welshy10/StevenDavies/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Steven Davies Repo</summary>
+            <description>Steven Davies Repo</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
