@@ -32,7 +32,7 @@
   </extension>
 </addon>
 
-    <addon id="repository.StevenDavies" name="Steven Davies Repo" version="1.0.0" provider-name="StevenDavies (Chameleon)">
+    <addon id="repository.StevenDavies" name="Steven Davies Repo" version="1.0.1" provider-name="StevenDavies (Chameleon)">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
