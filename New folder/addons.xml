@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.stevendavies" name="Steven Davies" version="1.0.6" provider-name="Chameleon-Custom-Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Steven-Davies-Custom-Builds</summary>
+    <description lang="en">Easy Way To Install Your Custom Steven Davies Build!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ruyaiptv"
+	name="RuYa IPTV"
+	version="1.1.5"
+	provider-name="ruyaiptv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">RuYa IPTV</summary>
+    <description lang="en">Where dreams come true</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+    <addon id="repository.StevenDavies" name="Steven Davies Repo" version="1.0.1" provider-name="StevenDavies (Chameleon)">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Steven Davies Repo">
+            <info compressed="false">https://raw.github.com/welshy10/StevenDavies/master/_repo/addons.xml</info>
+            <checksum>https://raw.github.com/welshy10/StevenDavies/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/welshy10/StevenDavies/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Steven Davies Repo</summary>
+            <description>Steven Davies Repo</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.addon.common"
+	     name="Common addon methods"
+	     version="2.0.0"
+	     provider-name="Eldorado (original: t0mm0)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+</addons>
